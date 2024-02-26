@@ -8,7 +8,7 @@ GOOGLE_API_KEY = split(r'[ ,;，；]+', os.getenv("AIzaSyB_nWdzwRc4dRS239KfQcjVZ
 
 """ Optional """
 
-ALLOWED_USERS = split(r'[ ,;，；]+', os.getenv("ALLOWED_USERS", '').replace("@", "").lower())
+ALLOWED_USERS = split(r'[ ,;，；]+', os.getenv("ALLOWED_USERS", '').replace("@n1mJuZz", "").lower())
 #Whether to push logs and enable some admin commands
 IS_DEBUG_MODE = os.getenv("IS_DEBUG_MODE", '0')
 #The target account that can execute administrator instructions and log push can use /get_my_info to obtain the ID.
