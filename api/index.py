@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 
-from handle import handle_message
+from .handle import handle_message
 
 app = Flask(__name__)
 
