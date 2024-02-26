@@ -8,7 +8,7 @@ from .config import GOOGLE_API_KEY, generation_config, safety_settings
 genai.configure(api_key=GOOGLE_API_KEY[0])
 
 model_usual = genai.GenerativeModel(
-    model_name="gemini-pro",
+    model_name="gemini-1.0-pro",
     generation_config=generation_config,
     safety_settings=safety_settings)
 
